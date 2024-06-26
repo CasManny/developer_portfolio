@@ -2,26 +2,10 @@ import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
+import { navItems } from "@/data";
 import { HomeIcon, Phone, User } from "lucide-react";
 import Image from "next/image";
 
- const navItems = [
-   {
-     name: "Home",
-     link: "/",
-     icon: <HomeIcon />,
-   },
-   {
-     name: "About",
-     link: "/about",
-     icon: <User />,
-   },
-   {
-     name: "Contact",
-     link: "/contact",
-     icon: <Phone />,
-   },
- ];
 
 export default function Home() {
   return (
